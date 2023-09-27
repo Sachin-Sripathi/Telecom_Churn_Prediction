@@ -27,10 +27,12 @@ Models Consists of:
 
 Analyzed the Confusion Matrix and ROC Curves for the above models.
 
-**Packages Used:**
-rpart
-ggplot2
-lattice
-rpart.plot
-caret
-pROC
+**Conclusion and Recommendations:** 
+
+Accuracy is almost the same for both training and validation data set, hence both models seem good for predicting the churn. In terms of AUC, logistic model (84.52%) has larger AUC value compared to decision tree (79.36), hence logistic model is recommended for predicting the churn.
+
+Churn rate is maximum for electronic payment method, and minimum for automatic payment method, so it is recommended to offer discounts for those customers who use electronic method to shift their payment method to automatic. 
+
+Churn rate is maximum for customers who have month to month contract and minimum for one- and two-year contract and since there is a large proportion of customers with month-to-month contract so company need to prepare strategies such as lucrative offers or loyalty programs or bare minimum prices during the initial time frame to shift these customers from month contract to one- and two-year contract, so that there will be a reduction in churn and also increase in revenue in future. 
+
+Churn rate offered by internet service provided by “Fiber Optic” is very high compared to other services, which might be due to low quality of services offered by Fiber Optic, so it is recommended to improve the quality of the services offered by the Fiber Optic.
