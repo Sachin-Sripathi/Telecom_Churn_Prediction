@@ -26,3 +26,11 @@ Models Consists of:
 2.	Logistic Regression
 
 Analyzed the Confusion Matrix and ROC Curves for the above models.
+
+**Packages Used:**
+rpart
+ggplot2
+lattice
+rpart.plot
+caret
+pROC
